@@ -20,3 +20,5 @@ Route::get('/', function () {
 Route::get('/intervention', [App\Http\Controllers\interventionController::class, 'index'] );
 
 Route::get('/carbon', [App\Http\Controllers\CarbonController::class, 'index'] );
+
+Route::get('/cetak', [App\Http\Controllers\DomController::class, 'index'] );
